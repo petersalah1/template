@@ -1,0 +1,172 @@
+body {
+    background-color: #d5fbfb;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+.container {
+    background-color: #fff;
+    width: 48%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 15px;
+}
+
+.left {
+    padding: 20px;
+}
+
+.left h2 {
+    font-size: 20px;
+    display: inline-block;
+
+}
+
+.uline {
+    margin-left: 55px;
+    font-size: smaller;
+    color: #455038;
+    border-bottom: 1px solid #455038;
+    cursor: pointer;        
+}
+
+
+h6 {
+    color: #455038;
+}
+
+.iii {
+    display: block;
+    font-size: 13px;
+    margin: 5px 0 10px;
+}
+
+.bbb { 
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #bbbbbba4;
+    border-radius: 5px;   
+    /* background-color: #9de3f558; */
+} 
+
+.cc {
+    text-align: center;
+    width: 94%;
+}
+
+.size {
+    width: 80%;
+}
+
+.lll {
+    position: relative;
+}
+
+.years {
+    position: absolute;
+    right: 15px;
+    border-radius: 0 5px 5px 0;   
+    background-color: #9de3f558;
+    padding: 5.7px;
+}
+
+.zz {
+    position: relative;
+}
+
+.do {
+    position: absolute;
+    left: 0;
+    border-radius: 5px 0 0 5px;
+    background-color: #9de3f558;
+    padding: 5.7px 12px;
+}
+
+.rrr {
+    position: relative;
+}
+
+.pr {
+    position: absolute;
+    right: 15px;
+    border-radius: 0 5px 5px 0;   
+    background-color: #9de3f558;
+    padding: 5.7px 12px;
+}
+
+.pp {
+    margin: 15px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+h6 {
+    color: #455038;
+    font-weight: 600;
+    font-size: 12px;
+    margin: 23px 0 0 0;
+}
+
+.one , .tow {
+    border: 1px solid #bbbbbba4;
+    border-radius: 5px;
+    padding: 7px;
+    margin: 10px 0;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #f7ff00cf;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: .2s;
+    text-transform: capitalize;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+.right {
+    background-color: #09363d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 0 15px 15px 40px;
+}
+
+img {
+    width: 40%;
+    border-radius: 50%;
+    transition: .2s;
+    box-shadow:  0px 0px 18px 1px #4f8889;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+.r_h2 {
+    color: #fff;
+}
+
+.r_p {
+    color: #11c5e0;
+    font-size: 13px;
+    margin: 0 15px;
+}
